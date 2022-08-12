@@ -5,8 +5,8 @@ import { Todos } from "./Components/Todos";
 function App() {
   return (
     <>
-    <Header/>
-    <Todos/>
+      <Header title="Todo List App" searchBar={false} />
+      <Todos />
     </>
   );
 }
